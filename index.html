@@ -2,11 +2,14 @@
 <html>
 	<head>
 		<title>Hello World</title>
+		<link rel="stylesheet" href="./index.css">
 	</head>
 	<body>
 		<h1>My name is Henry Peters</h1>
-		<input type="text" placeholder="Your Name"/>
-		<button onclick="sayName('Henry The Dev')">Show Name</button>
+		<p id="showName"></p>
+		<input id="nameInput" type="text" placeholder="Your Name"/>
+		<!-- <button onclick="sayName('Henry The Dev')">Show Name</button> -->
+		<button onclick="showName()">Show Name</button>
 		<script src="./scripts/index.js"></script>
 	</body>
 </html>
